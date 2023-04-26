@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangMT", "MangMT.csproj", "{B27383F4-0792-4832-9D1E-5F1900A6F3D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "udp_client", "..\udp_client\udp_client.csproj", "{A7FA99E7-409F-42DE-BD9B-3B491A752DB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B27383F4-0792-4832-9D1E-5F1900A6F3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27383F4-0792-4832-9D1E-5F1900A6F3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27383F4-0792-4832-9D1E-5F1900A6F3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27383F4-0792-4832-9D1E-5F1900A6F3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FA99E7-409F-42DE-BD9B-3B491A752DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FA99E7-409F-42DE-BD9B-3B491A752DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FA99E7-409F-42DE-BD9B-3B491A752DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FA99E7-409F-42DE-BD9B-3B491A752DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E21E1D7-2779-4CFA-83BF-F80A0D849E02}
+	EndGlobalSection
+EndGlobal
