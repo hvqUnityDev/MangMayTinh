@@ -71,6 +71,10 @@ namespace udp_client
         private void fClient_FormClosed(object sender, FormClosedEventArgs e)
         {
             _socketclient.Close();
+            _ipaddress = null;
+            _ipendpoint = null;
+            _socketclient = null;
+            _endpoint = null;
         }
 
        

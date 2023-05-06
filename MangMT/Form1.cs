@@ -75,6 +75,11 @@ namespace MangMT
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             _socketserver.Close();
+             _ipaddress = null;
+            _ipendpoint = null;
+
+            _socketserver = null;
+            _endpoint = null;
         }
     }
 }
