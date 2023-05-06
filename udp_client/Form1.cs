@@ -40,15 +40,12 @@ namespace udp_client
                 }
 
                 label1.Text += $"\nServer: {_s}";
-                //_data = new byte[1024];
-                //_data = Encoding.Unicode.GetBytes(_s);
-                //_socketserver.SendTo(_data, 0, _data.Length, SocketFlags.None, _endpoint);
             }
         }
 
         void SetUp()
         {
-            _ipaddress = IPAddress.Parse("192.168.43.201");
+            _ipaddress = IPAddress.Parse("127.0.0.1");
             _ipendpoint = new IPEndPoint(_ipaddress, 2022);
             _socketclient = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
 
